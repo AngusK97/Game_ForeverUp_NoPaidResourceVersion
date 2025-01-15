@@ -33,7 +33,7 @@ namespace Resource.ResourceModules
             return ResourceModuleName.Main;
         }
 
-        protected override void RecordAllResourceInfos(Action loadedCallback = null)
+        protected override void RecordAllResourceInfos()
         {
             AddResourceInfo(ResourceType.GameObject, (int) MainResource.PlayerObj, "Assets/GameResources/Prefab/Character/Player.prefab");
             AddResourceInfo(ResourceType.GameObject, (int) MainResource.PlatformObj, "Assets/GameResources/Prefab/Platform/Platform.prefab");

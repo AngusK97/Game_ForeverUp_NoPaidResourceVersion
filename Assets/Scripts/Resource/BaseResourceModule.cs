@@ -23,6 +23,8 @@ namespace Resource
     {
         private readonly List<ResourceInfo> _resourceInfos = new();
         private readonly Dictionary<int, object> _resources = new();
+        
+        private bool _recordedAllResourceInfos;
 
         public abstract ResourceModuleName GetName();
 
@@ -39,7 +41,7 @@ namespace Resource
 
         private bool IsAllResourcesLoaded()
         {
-            return _resourceInfos.Count != 0 && _resourceInfos.Count == _resources.Count;
+            return _resourceInfos.Count == _resources.Count;
         }
 
 
@@ -47,7 +49,7 @@ namespace Resource
         // Record Resource Infos
         //-------------------------------------------------------------------------------------
 
-        protected abstract void RecordAllResourceInfos(Action loadedCallBack = null);
+        protected abstract void RecordAllResourceInfos();
 
         protected void AddResourceInfo(ResourceType type, int resId, string path)
         {
@@ -61,6 +63,13 @@ namespace Resource
 
         public void LoadResources(Action loadedCallBack = null)
         {
+            if (!_recordedAllResourceInfos)
+            {
+                _resourceInfos.Clear();
+                RecordAllResourceInfos();
+                _recordedAllResourceInfos = true;
+            }
+            
             if (IsAllResourcesLoaded())
             {
                 loadedCallBack?.Invoke();
@@ -68,8 +77,6 @@ namespace Resource
             }
 
             _resources.Clear();
-            _resourceInfos.Clear();
-            RecordAllResourceInfos(loadedCallBack);
             LoadResourcesByInfo(loadedCallBack);
         }
 
