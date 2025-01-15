@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 119eb1a9c1bca494194bb46148d900d4
+  m_SerializeEntries:
+  - m_GUID: 110d664f03bd0834f8f74fceaa9402f4
+    m_Address: Assets/GameResources/Prefab/Item/FinalItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20e67271dad8983489672f88393b9787
+    m_Address: Assets/GameResources/Prefab/Platform/Platform.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28ac9a59020c6bc459f797acd217859a
+    m_Address: Assets/GameResources/Scenes/SpecialScene.scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2915bb2ce0ecc0a488003615f15f0ec9
+    m_Address: Assets/GameResources/Prefab/Item/BItem3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cda990e2423bbf4892e6590ba056729
+    m_Address: Assets/GameResources/Scenes/MenuScene.scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 513d0244deb02419dab88c9cd627e98d
+    m_Address: Assets/GameResources/Scenes/LevelScene.scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 538724bb875845d4194389ef1f52845a
+    m_Address: Assets/GameResources/Sound/collect_a_item1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c7c431a86e9b4c1287d982bb0967d7b
+    m_Address: Assets/GameResources/Prefab/Character/Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8348ae173d749e24289812a8fe6d9e40
+    m_Address: Assets/GameResources/Sound/jump.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87ee83c0510d94c428441acaacb5cd56
+    m_Address: Assets/GameResources/Prefab/UI/PlotView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ca8065ff5ec31840ab3b29722173d9a
+    m_Address: Assets/GameResources/Prefab/UI/MenuView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a78a04d70c619bb47aedc5271eb32838
+    m_Address: Assets/GameResources/Prefab/Item/BItem1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae3859a7da041ea428e9148b7cd74c70
+    m_Address: Assets/GameResources/Prefab/Item/BItem2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2807a035ce8d954690990cb0362ba93
+    m_Address: Assets/GameResources/Prefab/UI/SpecialHudView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b83d6dbc49991c14dbeb3aa9f0bf5b04
+    m_Address: Assets/GameResources/Sound/collect_b_item.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf67abee06f94902801d751ef8628c2
+    m_Address: Assets/GameResources/Scenes/InitScene.scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da81c03c88429bc41a57fde5cbcff55b
+    m_Address: Assets/GameResources/Prefab/Item/AItem2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06c1fcbaba574045930e6f3b4edb8ed
+    m_Address: Assets/GameResources/Sound/bgm_level.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1e0dd5e05d1bd34c8170e1cf18456d2
+    m_Address: Assets/GameResources/Prefab/Item/AItem3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22de26e6ebb99a49b52d0935e924d4b
+    m_Address: Assets/GameResources/Prefab/Item/AItem1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f65631964a8a5414ebdcf49792e6a97a
+    m_Address: Assets/GameResources/Sound/bgm_special.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbe6484b0437e48f7a95550935a82991
+    m_Address: Assets/GameResources/Prefab/UI/LevelHudView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 02d050fe57cee69408f53c2d946aad8f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a2cd24724770864419e7f70f466c8be8, type: 2}
+    - {fileID: 11400000, guid: ac4a9ad9243350a4d9b95cfdd56462a9, type: 2}
