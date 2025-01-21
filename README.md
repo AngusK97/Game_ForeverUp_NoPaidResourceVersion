@@ -16,3 +16,6 @@ Tuanjie Engine Version: 1.3.4. By the way, Tuanjie Engine is just a Chinese-vers
 
 # Minimal Unity Game Framework
 If you are interested in making games as well, you can learn about my MinimalUnityGameFramework [here](https://github.com/AngusK97/MinimalUnityGameFramework.git). Hope it can make your game development easier~
+
+# Discussion
+If you have any questions or suggestions, feel free to reach out and discuss with me: **anguskungcn@foxmail.com**.
